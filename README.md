@@ -3,9 +3,15 @@ Whenever I want to make reference to the code use for the Kaggle competitions I 
 
 Storing the notebooks on GitHub provides the ease of access to these notebooks and also the notebooks can be stored locally for easy viewing. ✌️
 
+To [Kaggle](https://www.kaggle.com/)
+
 ## Competitions Joined
 | Competition | Level |
 |-------------|-------|
 | Titanic - Machine Learning from Disaster | Prelim|
 | Spaceship Titanic | Prelim|
 | House Price - Advanced Regression Techniques | Prelim|
+
+## Some Good Notebooks
+| Notebooks | Category |
+|-------------|-------|
