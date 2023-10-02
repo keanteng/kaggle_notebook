@@ -1,0 +1,114 @@
+# site info
+site_name: Kaggle Notebook
+site_url: "https://github.com/keanteng/kaggle_notebook"
+site_author: 'keanteng'
+site_description: 'A documentation site for my learnings on Kaggle'
+
+# navigation
+nav:
+  - Home: index.md
+
+edit_uri: edit/main/docs/
+
+# site theme
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: white
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      primary: black
+      accent: brown
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+  plugins:
+    - search:
+      lang: en
+  features:
+    - navigation.footer
+    - content.code.copy
+    - content.code.select
+    - content.action.edit
+    - content.action.view
+
+# add repository
+repo_url: https://github.com/keanteng/kaggle_notebook
+repo_name: keanteng/kaggle_notebook
+
+# copyright
+copyright: Kaggle Notebook &copy; 2023 Kean Teng
+
+# social links
+extra:
+  social:
+  - icon: fontawesome/brands/github
+    link: https://github.com/keanteng
+  - icon: fontawesome/brands/medium
+    link: https://khorkeanteng.medium.com
+  - icon: fontawesome/brands/linkedin
+    link: https://my.linkedin.com/in/khorkeanteng
+  - icon: fontawesome/brands/instagram
+    link: https://www.instagram.com/khorkeanteng/
+  - icon: fontawesome/brands/twitter
+    link: https://twitter.com/realKeanTeng
+
+# Extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:materialx.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# plugins for jupyter notebook (might slow down site launch)
+plugins:
+  - search
+  - git-revision-date
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: timeago
+  - mkdocs-jupyter:
+      include_source: True
+      ignore_h1_titles: True
+      allow_errors: false
+      ignore: ["conf.py"]
+      execute: False
+      execute_ignore: ["notebooks/*.ipynb", "workshops/*.ipynb"]
