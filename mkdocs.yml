@@ -7,6 +7,14 @@ site_description: 'A documentation site for my learnings on Kaggle'
 # navigation
 nav:
   - Home: index.md
+  - Notebooks:
+    - Pytorch: notebooks/pytorch.ipynb
+    - 10 Regression Algorithms: notebooks/regression_algorithm.ipynb
+    - Car Price: notebooks/regression_carprice.ipynb
+    - Medical Insurance: notebooks/regression_insurance.ipynb
+    - House Price: notebooks/regression_r_house.ipynb
+    - Telco Customers: notebooks/regression_r_telco.ipynb
+    - Time Series: notebooks/timeseries_prophet.ipynb
 
 edit_uri: edit/main/docs/
 
