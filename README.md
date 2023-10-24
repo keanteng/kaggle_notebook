@@ -19,7 +19,9 @@ Storing the notebooks on GitHub provides the ease of access to these notebooks a
 | Titanic - Machine Learning from Disaster | Prelim|
 | Spaceship Titanic | Prelim|
 | House Price - Advanced Regression Techniques | Prelim|
-| Natural Language Processing Disaster Tweets Classification | Prelim |
+| Natural Language Processing with Disaster Tweets | Prelim |
+| Contradictory, My Dear Watson | Prelim | 
+| Digit Recognizer | Prelim |
 
 ## Learning From Books
 | Books | Language |
